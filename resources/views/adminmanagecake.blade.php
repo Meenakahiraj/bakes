@@ -93,7 +93,7 @@
 </tr>
 <tr>
     <td></td>
-    <td><button class="btn btn-info" type="submit">Update</button></td>
+    <td><button class="btn btn-info" >Update</button></td>
 </tr>
 
 
