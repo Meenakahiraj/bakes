@@ -74,7 +74,7 @@
 <div class="row">
 <div class="col col-12 col-sm 6 col-md 6 col-lg 6 col-xl 12 col-xxl 12">
 <h1><p style="font-family:Segoe Print;"><b>Add Product</b></p></h1><hr><br>
-<form action="/producteditprocess/{{ $cake->id}}" method="post">
+<form action="/producteditprocess/{{$cake->id}}" method="post">
    		 {{csrf_field() }}
 
 <center>
