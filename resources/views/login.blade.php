@@ -223,7 +223,7 @@
 						></path>
 					</svg>
 					<input type="text" name="email"
-						placeholder="email" />
+						placeholder="username"/>
 				</div>
 				<div class="gfg-password">
 					<svg fill="#999"

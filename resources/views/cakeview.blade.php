@@ -41,7 +41,7 @@ $total= customercontroller::CartItem();
           <a class="nav-link" href="/cusfeedback"><p style="color:white"><b>Send Feedback</b></p></a>
         </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <li class="nav-item">
-          <a class="nav-link" href="/myoders"><p style="color:white"><b>Oders</b></p></a>
+          <a class="nav-link" href="/myoders"><p style="color:white"><b>Orders</b></p></a>
         </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <li class="nav-item">
           <a class="nav-link" href="/cartlist"><p style="color:white"><b>cart({{$total}})</b></p></a>

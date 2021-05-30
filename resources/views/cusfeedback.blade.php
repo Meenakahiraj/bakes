@@ -171,7 +171,7 @@ label {
           <a class="nav-link" href="/cusfeedback"><p style="color:white"><b>Send Feedback</b></p></a>
         </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <li class="nav-item">
-          <a class="nav-link" href="/myoders"><p style="color:white"><b>Oders</b></p></a>
+          <a class="nav-link" href="/myoders"><p style="color:white"><b>Orders</b></p></a>
         </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <li class="nav-item">
           <a class="nav-link" href="/cartlist"><p style="color:white"><b>cart({{$total}})</b></p></a>
@@ -180,14 +180,6 @@ label {
           <a class="nav-link" href="/logout"><p style="color:white"><b>Logout</b></p></a>
         </li>
       </ul>
-      
-      
-      <form class="d-flex" method="post" action="/shsearch">
-      {{csrf_field() }}
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="shname">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-      
     </div>
   </div>
 </nav>
