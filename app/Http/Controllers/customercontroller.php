@@ -368,7 +368,7 @@ public function cartlist()
     ->join('cakemodels', 'cart.product_id', '=', 'cakemodels.id')
     ->where('cart.user_id', $userId)
     ->select('cakemodels.*','cart.id as cart_id')
-    ;
+    ->toArray();
      return view('/cartlist', compact('products'));
 }
 
