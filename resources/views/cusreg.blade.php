@@ -245,7 +245,7 @@
 						
 					</svg>
 				
-					<input type="text" name="password"
+					<input type="password" name="password"
 						placeholder="Password" />
 				</div>
 			</div>

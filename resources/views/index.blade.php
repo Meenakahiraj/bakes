@@ -87,6 +87,49 @@
   margin: 20px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("photographer.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 
   </style>
@@ -130,72 +173,28 @@
   </div>
 
 <div class="row">
-
-
-<center>
-
-<div id="slider">
-  <div id="headerSlider" class="carousel carousel-dark slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#headerSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#headerSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#headerSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="10000">
-      <img src="https://images.unsplash.com/photo-1552689486-f6773047d19f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block" alt="...">
-      <div class="carousel-caption d-none d-md-block"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRodTPqTSIja_CaJkvi6h_KQLebL2_1araWRQ&usqp=CAU"  class="src" width=80px>
-
-        <h1><p style="font-size:60px">Bakes 4 U</p></h1>
-        <p>You deserve the best taste, so we bake the best taste</p>
-        <p>We bake happiness.</p>
-      </div>
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="https://images.unsplash.com/photo-1604337153691-65d6e238df68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTM0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="d-block " alt="...">
-      <div class="carousel-caption d-none d-md-block">
-      <h1><p style="font-size:60px">Bakes 4 U</p></h1>
-        <p>You deserve the best taste, so we bake the best taste</p>
-        <p>We bake happiness.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://images.unsplash.com/photo-1561741403-3f7c1f93d0a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-      <h1><p style="font-size:60px">Bakes 4 U</p></h1>
-        <p>You deserve the best taste, so we bake the best taste</p>
-        <p>We bake happiness.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#headerSlider" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#headerSlider" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+<div class="col col-12 col-sm 6 col-md 6 col-lg 6 col-xl 12 col-xxl 12"><center>
+<img src="https://images.unsplash.com/photo-1552689486-f6773047d19f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Cinque Terre" width="1200" height="500">
+<div class="centered"><h1><b><p style="font-family:Bauhaus 93;color:#e600ac">Bakes 4 U</p></b></h1>
+<h4><b><i><p style="font-family:Segoe Print;color:#e600ac">Order Eat Rpeat</p></i></b></h4>
 </div>
-  </div>
-
-
-</center>
-<div class="row"><div class="col">
+<center>
+</div><div><br><br><br><br><br>
+<div class="row"><div class="col col-12 col-sm-4 col-md-4">
 <center>
 <div class="box1"><h4><p style="font-family:Segoe Print;"><b>WE LOVE THE ART OF MAKING</b></p></h4>
 <p>Bakers are very lucky. We have a profession that provides both pleasure and nourishment to a community</p>
 </div>
 </center>
 </div>
-<div class="col">
+<div class="col col-12 col-sm-4 col-md-4">
 <center>
 <div class="box2"><h4><p style="font-family:Segoe Print;"><b>WE STRIVE FOR BEST QUALITY</b></p></h4>
 <p>We try our best to serve our customers with the highest quality products we can bake</p>
 </div>
 </center>
 </div>
-<div class="col">
+<div class="col col-12 col-sm-4 col-md-4">
 <center>
 <div class="box3"><h4><p style="font-family:Segoe Print;"><b>WE MAKE IT WORTH IT</b></p></h4>
 <p>We value our customer’s efforts and we strive to ensure that our products are worth the price</p>
