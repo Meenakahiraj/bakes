@@ -16,7 +16,7 @@ class CreateCakemodelsTable extends Migration
         Schema::create('cakemodels', function (Blueprint $table) {
             $table->id();
             $table->String('pname');
-            $table->String('pcost');
+            $table->integer('pcost');
             $table->String('pdesc');
             $table->mediumText("pimage")->nullable();
             $table->timestamps();
