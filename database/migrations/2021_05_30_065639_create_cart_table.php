@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateShopregmodelsTable extends Migration
+class CreateCartTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,10 @@ class CreateShopregmodelsTable extends Migration
      */
     public function up()
     {
-        Schema::create('shopregmodels', function (Blueprint $table) {
+        Schema::create('cart', function (Blueprint $table) {
             $table->id();
-            $table->String('shname');
-            $table->String('sadd');
-            $table->String('sphno');
-            $table->String('state');
-            $table->String('suname');
-            $table->String('spassword');
+            $table->integer('user_id');
+            $table->integer('product_id');
             $table->timestamps();
         });
     }
@@ -32,6 +28,6 @@ class CreateShopregmodelsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('shopregmodels');
+        Schema::dropIfExists('cart');
     }
 }
