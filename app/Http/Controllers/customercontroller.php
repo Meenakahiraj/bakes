@@ -202,7 +202,7 @@ class customercontroller extends Controller
     
         
     
-            return redirect('/adminmanagecake');
+            return redirect('/adminviewcake');
     
         
     }
