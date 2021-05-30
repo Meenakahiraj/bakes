@@ -75,7 +75,7 @@ $total= customercontroller::CartItem();
     @foreach($products as $cakes)
         
         <tr>
-            <td><img width="150" height="100" src="{{ URL ::asset('assets/project_img/'.$cakes['pimage']) }}"></td>
+            
             <td><p style="color:darkblue">{{ $cakes->pname }}</p></td>
             <td><p style="color:darkblue">{{ $cakes->pcost }}</p></td>
             <td><p style="color:darkblue">{{ $cakes->pdesc }}</p></td>
