@@ -15,7 +15,7 @@ class CreateOdermodelsTable extends Migration
     {
         Schema::create('odermodels', function (Blueprint $table) {
             $table->id();
-            $table->string('product_id');
+            $table->integer('product_id');
             $table->string('user_id');
             $table->string('address');
             $table->string('status');
