@@ -76,7 +76,7 @@ $total= customercontroller::CartItem();
         
         <tr>
             
-            <td><p style="color:darkblue">{{ $cakes->pname }}</p></td>
+            <td><p style="color:darkblue">{{ $cakes['pname'] }}</p></td>
             <td><p style="color:darkblue">{{ $cakes->pcost }}</p></td>
             <td><p style="color:darkblue">{{ $cakes->pdesc }}</p></td>
             <td><a href="/removecart/{{ $cakes->cart_id }}"class="btn btn-warning">Remove</a></td>
