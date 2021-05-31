@@ -103,7 +103,7 @@ class customercontroller extends Controller
             $userinfo=cusregmodel::where('uname','=',$request->email)->first();
             $shopinfo=shopregmodel::where('suname','=',$request->email)->first();
            
-            if($request->email=='admin' && $request->password=='admin')
+            if($request->email=='admin99' && $request->password=='admin99')
             {
                 $request-> session()->put('loggeduser','Admin');                
                 return view('adminhome');
