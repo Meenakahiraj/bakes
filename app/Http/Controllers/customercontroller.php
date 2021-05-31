@@ -290,7 +290,7 @@ class customercontroller extends Controller
         
         $feed->save();
 
-        return view('cusfeedback');
+        return view('successfullyfeed');
     }
 
     public function search(Request $request)

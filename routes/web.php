@@ -117,6 +117,9 @@ Route::get('/cakeview', function () {
     return view('cakeview');
 });
 
+Route::get('/successfullyfeed', function () {
+    return view('successfullyfeed');
+});
 
 Route::get('/cookiesview', function () {
     return view('cookiesview');
