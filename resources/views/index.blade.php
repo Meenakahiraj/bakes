@@ -23,6 +23,15 @@
     font-size: 20px;
   }
 
+  .banner-img{
+    width : 100%;
+    height : 500px;
+  }
+  @media only screen and (max-width: 600px) {
+    .bakes-hide{
+      display:none;
+    }
+  }
 
   #slider 
   {
@@ -173,9 +182,9 @@
   </div>
 
 <div class="row">
-<div class="col col-12 col-sm 6 col-md 6 col-lg 6 col-xl 12 col-xxl 12"><center>
-<img src="https://images.unsplash.com/photo-1552689486-f6773047d19f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Cinque Terre" width="1200" height="500">
-<div class="centered"><h1><b><p style="font-family:Bauhaus 93;color:#e600ac">Bakes 4 U</p></b></h1>
+<div class="col col-12 col-sm 6 col-md 6 col-lg 6 col-xl 12 col-xxl 12"><center style="width:100%">
+<img src="https://images.unsplash.com/photo-1552689486-f6773047d19f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Cinque Terre" class="banner-img"  height="500">
+<div class="centered bakes-hide"><h1><b><p style="font-family:Bauhaus 93;color:#e600ac">Bakes 4 U</p></b></h1>
 <h4><b><i><p style="font-family:Segoe Print;color:#e600ac">Order Eat Rpeat</p></i></b></h4>
 </div>
 <center>
