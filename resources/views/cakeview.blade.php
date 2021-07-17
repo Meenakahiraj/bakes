@@ -67,7 +67,7 @@ $total= customercontroller::CartItem();
 </center>
 
 <div class="container">
-<h1><p style="font-family:Segoe Print;"><b>View Cakes</b></p></h1><hr><br>
+<h1><p style="font-family:Segoe Print;"><b>View Cakes and Cookies</b></p></h1><hr><br>
     
     <table class="table">
     <tr>
@@ -89,7 +89,7 @@ $total= customercontroller::CartItem();
             <form action="/add_to_cart" method="post">
             {{csrf_field()}}
             <input type="hidden" class="formcontroller" name="product_id" value="{{ $cakes->id }}">
-            <td><button class="btn btn-info" type='submit'>Add to carts</button></td>
+            <td><button class="btn btn-info" type='submit'>Add to cart</button></td>
             </form>
             <td><a class="btn btn-info" href="/buy/{{ $cakes->id }}">BUY</a></td>
             
