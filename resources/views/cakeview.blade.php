@@ -91,7 +91,7 @@ $total= customercontroller::CartItem();
             <input type="hidden" class="formcontroller" name="product_id" value="{{ $cakes->id }}">
             <td><button class="btn btn-info" type='submit'>Add to cart</button></td>
             </form>
-            <td><a class="btn btn-info" href="/buy/{{ $cakes->id }}">BUY</a></td>
+            
             
         </tr>
         @endforeach
