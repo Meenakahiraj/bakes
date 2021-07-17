@@ -76,7 +76,7 @@ $total= customercontroller::CartItem();
             <td><p style="color:darkblue">{{ $cakes->pcost }}</p></td>
             <td><p style="color:darkblue">{{ $cakes->pdesc }}</p></td>
             <td><a href="/removecart/{{ $cakes->cart_id }}"class="btn btn-warning">Remove</a></td>
-            <td><a class="btn btn-info" href="/buy/{{ $cakes->id }}">BUY</a></td>
+           
             
         </tr>
         @endforeach
