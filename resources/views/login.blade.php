@@ -162,25 +162,16 @@
         </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		<li class="nav-item">
           <a class="nav-link" href="/"><p style="color:#b30077"><b>Back</b></p></a>
-        </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		
-		
-		
+        </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	
       </ul>
-    
     </div>
   </div>
-</nav><br>
-
-  
+</nav><br> 
 </ul><center>
 <div class="container">
 <div class="row"><div class="col col-12 col-sm 6 col-md 6 col-lg 6 col-xl 12 col-xxl 12">
-
-
 			<form action="/logs" method="post">
 			@csrf
-
 			@if(count($errors)>0)
             <div class="alert alert-danger">
             <ul>
@@ -195,9 +186,6 @@
             {{Session::get('fail')}}
             </div>
             @endif
-
-
-
 		<div class="gfg-div">
 			<div class="gfg-logo"></div>
 			<div class="gfg-title">EAT ME</div>

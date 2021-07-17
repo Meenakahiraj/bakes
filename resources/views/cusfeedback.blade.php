@@ -57,7 +57,7 @@ $total= customercontroller::CartItem();
 }
 
 input[type=text] {
-    background-color: #ff99dd;
+    background-color:light bule;
     border: none;
     border-bottom: 2px solid #0DB8DE;
     border-top: 0px;
