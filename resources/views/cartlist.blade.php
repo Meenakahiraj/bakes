@@ -81,7 +81,7 @@ $total= customercontroller::CartItem();
         </tr>
         @endforeach
     
-    </table><br><center><a href="/odernow"class="btn btn-success ">Oder Now</a></center></div></div>
+    </table><br><center><a href="/odernow"class="btn btn-success ">Order Now</a></center></div></div>
 </div>
 
 
