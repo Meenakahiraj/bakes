@@ -203,6 +203,20 @@ label {
                     <div class="col-lg-12 login-form">
                     <form action="/feedback" method="post">
    		                 {{csrf_field() }}
+                            @if(count($errors)>0)
+            <div class="alert alert-danger">
+            <ul>
+            @foreach($errors->all() as $error)
+            <li>{{$error}} </li>
+            @endforeach
+            </ul>
+            </div>
+            @endif
+            @if(Session::get('fail'))
+            <div class="alert alert-danger">
+            {{Session::get('fail')}}
+            </div>
+            @endif
                             <div class="form-group">
                                 <label class="form-control-label">Customer Name :</label>
                                 <input type="text" class="form-control" name="cusname" required>

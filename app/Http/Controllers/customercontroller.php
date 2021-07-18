@@ -277,6 +277,12 @@ class customercontroller extends Controller
     public function feedback(Request $request)
     {
         
+        $this->validate($request,[
+            'cusname' => 'required|regex:/^[a-z A-Z]+$/u',
+            'pname' => 'required|regex:/^[a-z A-Z]+$/u',
+            'feed' => 'required',   
+        ]);
+
         $getcusname=request('cusname');
         $getpname=request('pname');
         $getfeed=request('feed');
