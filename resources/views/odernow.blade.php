@@ -95,21 +95,21 @@ $total= customercontroller::CartItem();
     <tbody>
       <tr>
         <td>Amount</td>
-        <td>${{$sum}}</td>
+        <td>Rs.{{$sum}}</td>
         
       </tr>
       <tr>
         <td>Tax</td>
-        <td>$0</td>
+        <td>Rs.10</td>
       </tr>
       <tr>
         <td>Delivery</td>
-        <td>$45</td>
+        <td>Rs.45</td>
         
       </tr>
       <tr>
         <td>Total Amount</td>
-        <td>${{$sum+45}}</td>
+        <td>Rs.{{$sum+45+10}}</td>
         
       </tr>
     </tbody>
