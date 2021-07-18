@@ -186,6 +186,7 @@
 <img src="https://images.unsplash.com/photo-1552689486-f6773047d19f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Cinque Terre" class="banner-img"  height="500">
 <div class="centered bakes-hide"><h1><b><p style="font-family:Bauhaus 93;color:#e600ac">Bakes 4 U</p></b></h1>
 <h4><b><i><p style="font-family:Segoe Print;color:#e600ac">Order Eat Rpeat</p></i></b></h4>
+<h6><b><i><p style="font-family:Segoe Print;color:#e600ac">Feel the Royal experience with Evry Bite</p></i></b></h6>
 </div>
 <center>
 </div><div><br><br><br><br><br>
