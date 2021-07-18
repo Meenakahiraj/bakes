@@ -10,7 +10,7 @@
     <style>
         .background
          {
-            background-image: url('https://images.unsplash.com/photo-1612198789737-4b9e98941992?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTQ1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60');
+            background-color: white;
             background-repeat: no-repeat;
             background-size: 100%;
 
@@ -52,7 +52,7 @@
 				font-size: 20px;
 				padding-top: 10px;
 				letter-spacing: 0.5px;
-				color: #e2ac39;
+				color: #cc0066;
 			}
 			.gfg-sub-title {
 				text-align: center;
@@ -101,13 +101,13 @@
 				font-family: "Lato", sans-serif;
 				color: #fff;
 				text-align: center;
-				background: #ebd28e;
+				background: #ff0084;
 				box-shadow: 7px 7px 8px #cbced1,
 				-7px -7px 8px #ffffff;
 				transition: 0.5s;
 			}
 			.gfg-button:hover {
-				background: #f08204;
+				background: #ffb3da;
 			}
 			.gfg-button:active {
 				background: #d18616;
@@ -132,7 +132,7 @@
 <body class="background">
 <div class="container">
  <div class="row">
- <nav class="navbar navbar-expand-lg navbar-dark bg-pink ">
+ <nav class="navbar navbar-expand-lg navbar-light bg-pink ">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -141,22 +141,22 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/"><p style="color:white"><b>Home</b></p></a>
+          <a class="nav-link active" aria-current="page" href="/"><p style="color:#cc0066"><b>Home</b></p></a>
         </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <li class="nav-item">
-          <a class="nav-link" href="/login"><p style="color:white"><b>Back</b></p></a>
+          <a class="nav-link" href="/login"><p style="color:#cc0066"><b>Back</b></p></a>
         </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		<li class="nav-item">
-          <a class="nav-link" href="/viewproducts"><p style="color:white"><b>Products</b></p></a>
+          <a class="nav-link" href="/viewproducts"><p style="color:#cc0066"><b>Products</b></p></a>
         </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		
       </ul>
     
     </div>
   </div>
-</nav><br>
+</nav><br><div class="container">
 <div class="row"><br><center>
-        <div class="col">
+        <div class="col col-12 col-sm 6 col-md 6 col-lg 6 col-xl 12 col-xxl 12">
         
 		<form action="/customerread" method="post">
    		 {{csrf_field() }}
@@ -176,13 +176,13 @@
             @endif
         <div class="container">
 			<div class="row">
-			<div class="col">
+			<div class="col col-12 col-sm 6 col-md 6 col-lg 6 col-xl 12 col-xxl 12">
 				<table class="table">
 				<div class="gfg-title">FILL ME</div>
 			
 			<div class="gfg-input-fields">
                 
-            <div class="">
+            <div class="gfg-email">
 					<svg fill="#999" viewBox="0 0 1024 1024">
 						
 					</svg><label>
@@ -252,11 +252,12 @@
 				</div>
 			</div>
 			<button class="gfg-button">
-			Submit</button>
+			Submit</button>&nbsp&nbsp&nbsp<button class="gfg-button"><a href="/login">
+			Cancel</a></button>
 				</table>
 			</div>
 			</div>
-			
+			</div>
 			</form>
 			
 		</div></center>
