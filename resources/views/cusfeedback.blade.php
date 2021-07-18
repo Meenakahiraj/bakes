@@ -219,15 +219,15 @@ label {
             @endif
                             <div class="form-group">
                                 <label class="form-control-label">Customer Name :</label>
-                                <input type="text" class="form-control" name="cusname" required>
+                                <input type="text" class="form-control" name="cusname">
                             </div>
                             <div class="form-group">
                                 <label class="form-control-label">Product Name :</label>
-                                <input type="text" name="pname" class="form-control" i required>
+                                <input type="text" name="pname" class="form-control" i >
                             </div>
                             <div class="form-group">
                                 <label class="form-control-label">Feedback :</label>
-                                <input type="text" name="feed" class="form-control" i required>
+                                <input type="text" name="feed" class="form-control" i >
                             </div>
 
                             <div class="col-lg-12 loginbttm">
