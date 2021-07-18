@@ -205,15 +205,15 @@ label {
    		                 {{csrf_field() }}
                             <div class="form-group">
                                 <label class="form-control-label">Customer Name :</label>
-                                <input type="text" class="form-control" name="cusname">
+                                <input type="text" class="form-control" name="cusname" required>
                             </div>
                             <div class="form-group">
                                 <label class="form-control-label">Product Name :</label>
-                                <input type="text" name="pname" class="form-control" i>
+                                <input type="text" name="pname" class="form-control" i required>
                             </div>
                             <div class="form-group">
                                 <label class="form-control-label">Feedback :</label>
-                                <input type="text" name="feed" class="form-control" i>
+                                <input type="text" name="feed" class="form-control" i required>
                             </div>
 
                             <div class="col-lg-12 loginbttm">
