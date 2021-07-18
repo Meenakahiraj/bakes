@@ -59,7 +59,8 @@ $total= customercontroller::CartItem();
 <div class="row">
 <div class="col col-12 col-sm 6 col-md 6 col-lg 6 col-xl 12 col-xxl 12">
 <h1><p style="font-family:Segoe Print;color:blue"><b>My Cart</b></p></h1><hr><br>
-    
+<div class="row">
+<div class="col col-12 col-sm 6 col-md 6 col-lg 6 col-xl 12 col-xxl 12">
     <table class="table">
     <tr>
         <th><p style="color:darkblue"><b>Product</b></p></th>
@@ -81,7 +82,8 @@ $total= customercontroller::CartItem();
         </tr>
         @endforeach
     
-    </table><br><center><a href="/odernow"class="btn btn-success ">Order Now</a></center></div></div>
+    </table></div></div><br><center><a href="/odernow"class="btn btn-success ">Order Now</a></center>
+  </div></div>
 </div>
 
 
