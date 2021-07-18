@@ -130,31 +130,7 @@
     </style>
 </head>
 <body class="background">
-<div class="container">
- <div class="row">
- <nav class="navbar navbar-expand-lg navbar-light bg-pink ">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/"><p style="color:#cc0066"><b>Home</b></p></a>
-        </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <li class="nav-item">
-          <a class="nav-link" href="/login"><p style="color:#cc0066"><b>Back</b></p></a>
-        </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<li class="nav-item">
-          <a class="nav-link" href="/viewproducts"><p style="color:#cc0066"><b>Products</b></p></a>
-        </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		
-      </ul>
-    
-    </div>
-  </div>
-</nav><br><div class="container">
+ <br><div class="container">
 <div class="row"><br><center>
         <div class="col col-12 col-sm 6 col-md 6 col-lg 6 col-xl 12 col-xxl 12">
         
@@ -174,11 +150,11 @@
             {{Session::get('fail')}}
             </div>
             @endif
-        <div class="container">
+			<div class="container">
 			<div class="row">
 			<div class="col col-12 col-sm 6 col-md 6 col-lg 6 col-xl 12 col-xxl 12">
 				<table class="table">
-				<div class="gfg-title">FILL ME</div>
+				<div class="gfg-title">FILL ME IN</div>
 			
 			<div class="gfg-input-fields">
                 
