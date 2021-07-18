@@ -179,7 +179,7 @@ class customercontroller extends Controller
         $cake->pimage= $name;
 
         $cake->save();
-        return view('adminviewake');
+        return view('adminviewcake');
     }
 
     public function cakeupdate(Request $request, $id)
