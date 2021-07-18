@@ -15,121 +15,10 @@
             background-size: 100%;
 
         } 
-        * {
-				box-sizing: border-box;
-			}
-			body {
-				margin: 0;
-				/*Display width and height*/
-				height: 100vh;
-				width: 100vw;
-				overflow: hidden;
-				font-family: "Lato", sans-serif;
-				font-weight: 700;
-				/* To make all the elements center */
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				/*Font color and background Color*/
-				color: #555;
-				background: #ecf0f3;
-			}
-			.gfg-div {
-				/* Login Card Width and height */
-				width: 400px;
-				height: 600px;
-				/* padding */
-				padding: 20px 35px 15px 35px;
-				border-radius: 35px;
-				background: #ecf0f3;
-				/* Box-shadow for 3d visualization*/
-				box-shadow:
-				-6px -6px 6px rgba(255, 255, 255, 0.8),
-				6px 6px 6px rgba(0, 0, 0, 0.2);
-			}
-			.gfg-title {
-				text-align: center;
-				font-size: 20px;
-				padding-top: 10px;
-				letter-spacing: 0.5px;
-				color: #cc0066;
-			}
-			.gfg-sub-title {
-				text-align: center;
-				font-size: 10px;
-				padding-top: 7px;
-				letter-spacing: 3px;
-				color: #df975c;
-			}
-			.gfg-input-fields {
-				width: 100%;
-				padding: 20px 5px 10px 5px;
-			}
-			.gfg-input-fields input {
-/* To hide default browser optios of input field */
-				border: none;
-				outline: none;
-				/* Custom design for the input field */
-				background: none;
-				font-size: 12px;
-				color: #555;
-				padding: 15px 10px 15px 5px;
-			}
-			.gfg-email,
-			.gfg-password {
-				margin-bottom: 15px;
-				border-radius: 15px;
-				/* Box-shadow for 3d */
-				box-shadow: inset 5px 5px 5px #cbced1,
-				inset -5px -5px 5px #ffffff;
-			}
-			.gfg-input-fields svg {
-				height: 22px;
-				margin: 0 10px -3px 25px;
-			}
-			.gfg-button {
-	/* To hide default browser optios of input field */
-				outline: none;
-				border: none;
-				/* Custom design for the Button */
-				cursor: pointer;
-				width: 15%;
-				height: 40px;
-				border-radius: 25px;
-				font-size: 10px;
-				font-weight: 500;
-				font-family: "Lato", sans-serif;
-				color: #fff;
-				text-align: center;
-				background: #ff0084;
-				box-shadow: 7px 7px 8px #cbced1,
-				-7px -7px 8px #ffffff;
-				transition: 0.5s;
-			}
-			.gfg-button:hover {
-				background: #ffb3da;
-			}
-			.gfg-button:active {
-				background: #d18616;
-			}
-			.gfg-link {
-				padding-top: 20px;
-				text-align: center;
-			}
-			.gfg-link a {
-				text-decoration: none;
-				color: rgb(226, 182, 131);
-				font-size: 15px;
-				transition: 0.5s;
-			}
-			.gfg-link a:hover {
-				text-decoration: none;
-				color: #cf550e;
-				font-size: 15px;
-			}
+        
     </style>
 </head>
-<body class="background">
+<body style="background-color:#ffe6ff;">
  <br><div class="container">
 <div class="row"><br><center>
         <div class="col col-12 col-sm 6 col-md 6 col-lg 6 col-xl 12 col-xxl 12">
@@ -154,82 +43,57 @@
 			<div class="row">
 			<div class="col col-12 col-sm 6 col-md 6 col-lg 6 col-xl 12 col-xxl 12">
 				<table class="table">
-				<div class="gfg-title">FILL ME IN</div>
-			
-			<div class="gfg-input-fields">
-                
-            <div class="gfg-email">
-					<svg fill="#999" viewBox="0 0 1024 1024">
-						
-					</svg><label>
-					<input type="text" name="fname"
-						placeholder="First name" />
-				</div>
-                <div class="gfg-email">
-					<svg fill="#999" viewBox="0 0 1024 1024">
-						
-					</svg>
-					
-					<input type="text" name="lname"
-						placeholder="Last name" />
-				</div>
-
-				<div class="gfg-email">
-					<svg fill="#999" viewBox="0 0 1024 1024">
-						
-					</svg>
+				<h1><p style="font-family:Segoe Print;color:#ff0084"><b>FILL ME IN</b></p></h1><br><hr><br>
 				
-					<input type="text" name="hname"
-						placeholder="House name" />
-				</div>
-				<div class="gfg-email">
-					<svg fill="#999" viewBox="0 0 1024 1024">
-						
-					</svg>
-				
-					<input type="text" name="place"
-						placeholder="Place" />
-				</div>
-
-				<div class="gfg-email">
-					<svg fill="#999" viewBox="0 0 1024 1024">
-						
-					</svg>
-				
-					<input type="text" name="lmark"
-						placeholder="Land Mark" />
-				</div>
-                
-				<div class="gfg-email">
-					<svg fill="#999" viewBox="0 0 1024 1024">
-						
-					</svg>
-				
-					<input type="text" name="phno"
-						placeholder="Phone number" />
-				</div>
-
-				<div class="gfg-email">
-					<svg fill="#999" viewBox="0 0 1024 1024">
-						
-					</svg>
-				
-					<input type="text" name="uname"
+				<tr>
+                <td><p style="color:#ff0084">First name</td>
+				<td><input type="text" name="fname"
+						placeholder="First name" /></td>
+				</tr>
+				<tr>
+                <td><p style="color:#ff0084">Last name</td>
+				<td><input type="text" name="lname"
+						placeholder="Last name" /></td>
+				</tr>
+					<tr>
+					<td><p style="color:#ff0084">House name</td>
+					<td><input type="text" name="hname"
+						placeholder="House name" /></td>
+				</tr>
+				<tr>
+					<td><p style="color:#ff0084">Place</td>
+					<td><input type="text" name="place"
+						placeholder="Place" /></td>
+				</tr>
+				<tr>
+					<td><p style="color:#ff0084">Land Mark</td>
+					<td><input type="text" name="lmark"
+						placeholder="Land Mark" /></td>
+				</tr>
+				<tr>
+					<td><p style="color:#ff0084">Phone number</td>
+					<td><input type="text" name="phno"
+						placeholder="Phone number" /></td>
+				</tr>
+				<tr>
+					<td><p style="color:#ff0084">Username</td>
+					<td><input type="text" name="uname"
 						placeholder="Username" />
-				</div>
-
-				<div class="gfg-email">
-					<svg fill="#999" viewBox="0 0 1024 1024">
-						
-					</svg>
-				
-					<input type="password" name="password"
-						placeholder="Password" />
-				</div>
+				</td>
+				</tr>
+				<tr>
+					<td><p style="color:#ff0084">Password</td>
+					<td><input type="password" name="password"
+						placeholder="Password"/></td>
+				</tr>	
+				<tr>
+					<td></td>
+					<td><button class="btn-success">
+			Submit</button>&nbsp&nbsp&nbsp<button class="btn-primary"><a href="/login">
+			Cancel</a></button></td>
+				</tr>
 			</div>
-			<button class="gfg-button">
-			Submit</button>&nbsp&nbsp&nbsp<button class="gfg-button"><a href="/login">
-			Cancel</a></button>
+			
 				</table>
 			</div>
 			</div>
