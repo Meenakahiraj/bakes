@@ -36,8 +36,8 @@
 			}
 			.gfg-div {
 				/* Login Card Width and height */
-				width: 430px;
-				height: 640px;
+				width: 400px;
+				height: 600px;
 				/* padding */
 				padding: 20px 35px 15px 35px;
 				border-radius: 35px;
@@ -174,13 +174,15 @@
             {{Session::get('fail')}}
             </div>
             @endif
-        <div class="gfg-div">
-			<div class="gfg-logo"></div>
-			<div class="gfg-title">FILL ME</div>
+        <div class="container">
+			<div class="row">
+			<div class="col">
+				<table class="table">
+				<div class="gfg-title">FILL ME</div>
 			
 			<div class="gfg-input-fields">
                 
-            <div class="gfg-email">
+            <div class="">
 					<svg fill="#999" viewBox="0 0 1024 1024">
 						
 					</svg><label>
@@ -251,6 +253,10 @@
 			</div>
 			<button class="gfg-button">
 			Submit</button>
+				</table>
+			</div>
+			</div>
+			
 			</form>
 			
 		</div></center>

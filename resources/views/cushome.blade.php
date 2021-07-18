@@ -154,7 +154,7 @@ div.scrollmenu a:hover {
  </div>
  <div class="flip-card-back"><br><br>
       <h3><b>{{ $cakes->pname }}</b></h3> <br>
-      <p><b>${{ $cakes->pcost }}</b></p> <br>
+      <p><b>Rs. {{ $cakes->pcost }}</b></p> <br>
      <a href="/cakeview"class="btn btn-warning" type='submit'>View All products</a><br>
     </td>&nbsp;
         @endforeach</div>
